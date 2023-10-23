@@ -13,7 +13,7 @@ document.getElementById("rollButton").onclick = function(){
 
 
 
-     let finalResult = ""
+    
 
      if (cpu > me){
         result ="cpu won";
@@ -22,7 +22,7 @@ document.getElementById("rollButton").onclick = function(){
         }else result ="it is a draw";
         console.log(result)
 
-      
+       
 }
 
 
