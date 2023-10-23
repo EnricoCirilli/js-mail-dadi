@@ -16,11 +16,11 @@ document.getElementById("rollButton").onclick = function(){
     
 
      if (cpu > me){
-        result ="cpu won";
+       document.querySelector(".resultado").innerHTML="cpu won";
         }else if (me > cpu){
-            result= "you win"
-        }else result ="it is a draw";
-        console.log(result)
+            document.querySelector(".resultado").innerHTML= "you win"
+        }else document.querySelector(".resultado").innerHTML ="it is a draw";
+       
 
        
 }
