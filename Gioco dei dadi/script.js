@@ -1,17 +1,31 @@
 
 
 
+let me;
+let cpu;
 
-let me = Math.floor((Math.random() * 6) + 1);
-let cpu = Math.floor((Math.random() * 6) + 1);
-console.log(me);
-console.log(cpu);
+document.getElementById("rollButton").onclick = function(){
+     me = Math.floor((Math.random() * 6) + 1);
+     cpu = Math.floor((Math.random() * 6) + 1);
 
-if (cpu > me){
-console.log("cpu won")
-}else if (me > cpu){
-    console.log("you win")
-}else console.log("it is a draw");
+     document.getElementById("meLabel").innerHTML = me;
+     document.getElementById("cpuLabel").innerHTML = cpu;
+
+
+
+     let finalResult = ""
+
+     if (cpu > me){
+        result ="cpu won";
+        }else if (me > cpu){
+            result= "you win"
+        }else result ="it is a draw";
+        console.log(result)
+
+      
+}
+
+
 
 
 
