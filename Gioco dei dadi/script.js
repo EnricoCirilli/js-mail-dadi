@@ -12,3 +12,6 @@ console.log("cpu won")
 }else if (me > cpu){
     console.log("you win")
 }else console.log("it is a draw");
+
+
+
