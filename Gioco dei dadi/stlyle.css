@@ -8,3 +8,8 @@
     width: 80%;
   
 }
+.resultado{
+    border: 3px red solid;
+    text-align: center;
+    width: 80%;
+}
